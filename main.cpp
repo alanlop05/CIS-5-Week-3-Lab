@@ -1,21 +1,26 @@
 #include <iostream>
 #include <string>
 
-// Lab 3 — Your Name
+// Lab 3 — Alan
 // CIS 5 Week 03 · Types & variables
 
 int main() {
   const int CURRENT_YEAR = 2026;
 
-  // TODO: declare and initialize on the same line
-  // std::string name = ...;
-  // int age = ...;
-  // double height_m = ...;
-  // char initial = ...;
-  // bool student = ...;
+   
+   std::string name = "Alan Lopez";
+   int age = 29;
+   double height_m = 1.70;
+   char initial = 'A';
+   bool student = true;
 
   std::cout << "=== About me ===\n";
-  // TODO: labeled prints from the variable names + CURRENT_YEAR
+  std::cout << "Name: " << name << "\n";
+  std::cout << "Age: " << age << "\n";
+  std::cout << "Height (m): " << height_m << "\n";
+  std::cout << "Initial: " << initial << "\n";
+  std::cout << "Student: " << student << "\n";
+  std::cout << "Year: " << CURRENT_YEAR << "\n";
 
   return 0;
 }
